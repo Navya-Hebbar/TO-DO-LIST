@@ -88,6 +88,7 @@ button:hover
 {
   background-color: crimson;
   border: 5px solid red;
+
 }
 
 
@@ -106,4 +107,13 @@ ol li
   width: 100%;
   margin-top: 4%;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px  pink;
+}
+
+@media (max-width:768px)
+{
+  .center_div
+  {
+    width: 55%;
+  }
 }
